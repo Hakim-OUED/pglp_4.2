@@ -1,4 +1,4 @@
-package pglp_4.commandes.generiques;
+package pglp_4.commandes.Generiques;
 
 public class Quit implements CommandeGenerique {
 
