@@ -22,6 +22,7 @@ public class SaisieRPN {
         String saisie = entree.readLine();
         try {
                 double x = Double.parseDouble(saisie);
+
                 moteur.enregistrerOperande(x);
                 moteur.getExpCourante();
                 moteur.getOperandes();
@@ -30,6 +31,7 @@ public class SaisieRPN {
                 if (moteur.operandes.size()<2) throw new OperationImpossibleException();
                 else {
                     moteur.operer(saisie);
+                    System.out.println(saisie);
                     moteur.getExpCourante();
                     moteur.getOperandes();
                 }
@@ -37,7 +39,8 @@ public class SaisieRPN {
                 moteur.interpreteurGen.interprete(saisie);
                 moteur.operandes=moteur.undo.getLastOperandes();
                 moteur.expCourante=moteur.undo.getLastExpressions();
-
+                moteur.getExpCourante();
+                moteur.getOperandes();
             }
         } catch (BorneSupInfException e) {System.out.println(e.getMessage() + "Min_Val : "
                 +  moteur.getMinValue() + " Max_Val : " + moteur.getMaxValue() );}

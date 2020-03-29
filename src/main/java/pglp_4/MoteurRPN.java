@@ -10,17 +10,17 @@ import pglp_4.Exceptions.*;
 import pglp_4.commandes.Operations.*;
 
 public class MoteurRPN extends Interpreteur {
-    Deque<Double> operandes = new ArrayDeque<>();
+    Stack<Double> operandes = new Stack<>();
     Deque<String> expCourante = new ArrayDeque<>();
     //protected Map<String, Operation> commandes;
     Interpreteur interpreteurGen;
     Undo undo = new Undo();
+
     //La plus petite valeur de la calculatrice quand ne peut pas depassé
     private static final double MIN_VALUE =-10000.0;
 
 
     //La plus grande valeur de la calculatrice quand ne peut pas depassé
-
     private static final double MAX_VALUE = 10000.0;
 
 
@@ -32,13 +32,15 @@ public class MoteurRPN extends Interpreteur {
     public void enregistrerOperande(double x) throws BorneSupInfException {
 
         if(Math.abs(x)>MAX_VALUE) throw new BorneSupInfException();
+
         operandes.push(x);
+        Stack<Double> d= (Stack<Double>) operandes.clone();
         expCourante.push(String.valueOf(x));
-        undo.majHitorique(operandes,expCourante);
+
+       undo.majHitorique(d,expCourante);
     }
 
     public Deque<String> getExpCourante() {
-
         System.out.println("\n Expression Courante: \n");
         for (Iterator<String> it = expCourante.descendingIterator(); it.hasNext(); ) {
             String i = it.next();
@@ -48,7 +50,7 @@ public class MoteurRPN extends Interpreteur {
         return expCourante;
     }
 
-    public Deque<Double> getOperandes() {
+    public Stack<Double> getOperandes() {
 
         System.out.println("\n\n CONTENUE DE LA PILE des opérandes:\n");
         for (double i:operandes
@@ -87,8 +89,8 @@ public class MoteurRPN extends Interpreteur {
         Double resultat = -1.0;
         if (this.commandes.containsKey(nom.toLowerCase())){
             double op1,op2;
-            op1=operandes.removeFirst();
-            op2=operandes.removeFirst();
+            op1=operandes.pop();
+            op2=operandes.pop();
             try{
 
                 resultat = commandes.get(nom).execute(op2,op1);
@@ -98,6 +100,7 @@ public class MoteurRPN extends Interpreteur {
                 } else {
                     operandes.push(resultat);
                     expCourante.push(nom);
+                    undo.majHitorique(operandes,expCourante);
                 }
             }catch (NoSuchElementException  e) {
                 System.out.println("La pile est vide!! Vous de pouvez pas faire d'operation sans operandes");
