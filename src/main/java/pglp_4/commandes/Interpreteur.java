@@ -8,23 +8,27 @@ import java.util.Map;
 
 public class Interpreteur {
 
-    private Map<String, Commande> commandes;
+    public Map<String, Commande> getCommandes() {
+        return commandes;
+    }
+
+    protected Map<String, Commande> commandes;
 
     public Interpreteur() {
         commandes = new HashMap<String, Commande>();
     }
 
     public void addCommand (String nom, Commande commande){
-        this.commandes.put(nom.toLowerCase(),commande);
+        commandes.put(nom.toLowerCase(),commande);
     }
 
     public void interprete(String nom){
-        if (this.commandes.containsKey(nom.toLowerCase())){
+        if (commandes.containsKey(nom.toLowerCase())){
             try{
-                commandes.get(nom).execute();
+                commandes.get(nom.toLowerCase()).execute();
             }catch (Exception e) {System.out.println("L'execution de la commande n'a pas abouti! Veillez réessayé");}
         }else{
-            System.out.println("Commande introuvable");
+            //System.out.println("Commande introuvable");
         }
     }
 
