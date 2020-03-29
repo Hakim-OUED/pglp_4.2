@@ -9,6 +9,6 @@ public class DivTest {
     @Test
     public void testDiv() throws DivisionParZeroException {
         Div div = new Div();
-        assertTrue(div.execute(10.0,2.0) == 5);
+        assertTrue(div.execute(2.0,10.0) == 5);
     }
 }

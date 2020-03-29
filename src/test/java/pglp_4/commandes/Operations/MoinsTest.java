@@ -8,6 +8,6 @@ public class MoinsTest {
     @Test
     public void testMoins(){
         Moins moins = new Moins();
-        assertTrue(moins.execute(5,2) == 3);
+        assertTrue(moins.execute(2,5) == 3);
     }
 }
