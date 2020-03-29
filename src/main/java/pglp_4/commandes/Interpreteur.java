@@ -11,8 +11,8 @@ public class Interpreteur {
 
     private Map<String, CommandeGenerique> commandes;
 
-    Interpreteur() {
-        commandes = new HashMap<>();
+    public Interpreteur() {
+        commandes = new HashMap<String, CommandeGenerique>();
     }
 
     public void addCommand (String nom, CommandeGenerique commande){
