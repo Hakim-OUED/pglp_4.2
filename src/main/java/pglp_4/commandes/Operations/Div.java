@@ -13,4 +13,9 @@ public class Div implements Operation {
     public char getSymbole() {
         return '/';
     }
+
+    @Override
+    public void execute() {
+
+    }
 }

@@ -10,4 +10,9 @@ public class Mult implements Operation {
     public char getSymbole() {
         return '*';
     }
+
+    @Override
+    public void execute() {
+
+    }
 }

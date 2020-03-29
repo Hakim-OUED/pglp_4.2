@@ -1,6 +1,5 @@
 package pglp_4.commandes;
 
-import pglp_4.commandes.Generiques.CommandeGenerique;
 import pglp_4.commandes.Generiques.Quit;
 import pglp_4.commandes.Generiques.Undo;
 
@@ -9,13 +8,13 @@ import java.util.Map;
 
 public class Interpreteur {
 
-    private Map<String, CommandeGenerique> commandes;
+    private Map<String, Commande> commandes;
 
     public Interpreteur() {
-        commandes = new HashMap<String, CommandeGenerique>();
+        commandes = new HashMap<String, Commande>();
     }
 
-    public void addCommand (String nom, CommandeGenerique commande){
+    public void addCommand (String nom, Commande commande){
         this.commandes.put(nom.toLowerCase(),commande);
     }
 

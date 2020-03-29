@@ -10,4 +10,9 @@ public class Moins implements Operation {
     public char getSymbole() {
         return '-';
     }
+
+    @Override
+    public void execute() {
+
+    }
 }

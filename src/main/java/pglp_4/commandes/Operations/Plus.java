@@ -11,4 +11,10 @@ public class Plus implements Operation{
     public char getSymbole() {
         return '+';
     }
+
+
+    @Override
+    public void execute() {
+
+    }
 }

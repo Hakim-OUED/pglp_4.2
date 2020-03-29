@@ -1,6 +1,8 @@
 package pglp_4.commandes.Generiques;
 
-public class Quit implements CommandeGenerique {
+import pglp_4.commandes.Commande;
+
+public class Quit implements Commande {
 
     @Override
     public void execute() {
