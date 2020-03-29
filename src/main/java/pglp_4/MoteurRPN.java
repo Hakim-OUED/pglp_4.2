@@ -93,7 +93,7 @@ public class MoteurRPN extends Interpreteur {
             op2=operandes.pop();
             try{
 
-                resultat = commandes.get(nom).execute(op2,op1);
+                resultat = commandes.get(nom).execute(op1,op2);
                 if (resultat.isInfinite()) {
                     operandes.push(op2);
                     operandes.push(op1);
