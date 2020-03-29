@@ -3,16 +3,15 @@ package pglp_4;
 import pglp_4.Exceptions.BorneSupInfException;
 import pglp_4.Exceptions.DivisionParZeroException;
 import pglp_4.Exceptions.OperationImpossibleException;
-import pglp_4.commandes.Interpreteur;
+
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Scanner;
+
 
 public class SaisieRPN {
-    Scanner sc = new Scanner(System.in);
-    BufferedReader entree = new BufferedReader(new InputStreamReader(System.in));
+   BufferedReader entree = new BufferedReader(new InputStreamReader(System.in));
     MoteurRPN moteur = MoteurRPN.init();
 
 

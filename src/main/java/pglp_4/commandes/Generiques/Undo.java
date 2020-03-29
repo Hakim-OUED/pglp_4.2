@@ -11,8 +11,6 @@ import java.util.Stack;
 public class Undo implements Commande {
 
    Stack<Stack<Double>> operandesHistorique = new Stack<>();
-
-    Deque<Double> pile = new ArrayDeque<>();
     Deque<String> expCourante = new ArrayDeque<>();
 
     public Undo(){
