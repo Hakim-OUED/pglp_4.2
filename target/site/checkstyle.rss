@@ -19,15 +19,15 @@ under the License.
 -->
 <rss version="0.91">
   <channel>
-    <title>pglp_4.2 - Checkstyle report</title>
+    <title>pglp.2 - Checkstyle report</title>
     <link>http://www.example.com</link>
-    <description>pglp_4.2 - Checkstyle report</description>
+    <description>pglp.2 - Checkstyle report</description>
     <language>en-us</language>
     <copyright>&#169;2020</copyright>
     <item>
-      <title>File: 16,
-             Errors: 280,
-             Warnings: 0,
+      <title>File: 15,
+             Errors: 0,
+             Warnings: 365,
              Infos: 0
       </title>
             <link>http://www.example.com/checkstyle.html</link>
@@ -46,164 +46,7 @@ under the License.
           <tbody>
                           <tr>
                 <td>
-                  <a href="http://www.example.com/checkstyle.html#pglp_4.commandes.Operations.Operation.java">pglp_4/commandes/Operations/Operation.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  4
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://www.example.com/checkstyle.html#pglp_4.Exceptions.DivisionParZeroException.java">pglp_4/Exceptions/DivisionParZeroException.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  2
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://www.example.com/checkstyle.html#pglp_4.Exceptions.OperationImpossibleException.java">pglp_4/Exceptions/OperationImpossibleException.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  4
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://www.example.com/checkstyle.html#pglp_4.commandes.Operations.Plus.java">pglp_4/commandes/Operations/Plus.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  7
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://www.example.com/checkstyle.html#pglp_4.Exceptions.BorneSupInfException.java">pglp_4/Exceptions/BorneSupInfException.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  4
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://www.example.com/checkstyle.html#pglp_4.commandes.Generiques.Quit.java">pglp_4/commandes/Generiques/Quit.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  7
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://www.example.com/checkstyle.html#pglp_4.CalculatriceRPN.java">pglp_4/CalculatriceRPN.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  8
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://www.example.com/checkstyle.html#pglp_4.commandes.Operations.Moins.java">pglp_4/commandes/Operations/Moins.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  6
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://www.example.com/checkstyle.html#pglp_4.SaisieRPN.java">pglp_4/SaisieRPN.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  34
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://www.example.com/checkstyle.html#pglp_4.MoteurRPN.java">pglp_4/MoteurRPN.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  86
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://www.example.com/checkstyle.html#pglp_4.commandes.Interpreteur.java">pglp_4/commandes/Interpreteur.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  38
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://www.example.com/checkstyle.html#pglp_4.commandes.Operations.Div.java">pglp_4/commandes/Operations/Div.java</a>
-                </td>
-                <td>
-                  0
+                  <a href="http://www.example.com/checkstyle.html#pglp.commandes.Operations.Plus.java">pglp/commandes/Operations/Plus.java</a>
                 </td>
                 <td>
                   0
@@ -211,27 +54,27 @@ under the License.
                 <td>
                   12
                 </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://www.example.com/checkstyle.html#pglp_4.commandes.Operations.Mult.java">pglp_4/commandes/Operations/Mult.java</a>
-                </td>
                 <td>
                   0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  6
                 </td>
               </tr>
                           <tr>
                 <td>
-                  <a href="http://www.example.com/checkstyle.html#pglp_4.App.java">pglp_4/App.java</a>
+                  <a href="http://www.example.com/checkstyle.html#pglp.commandes.Generiques.Quit.java">pglp/commandes/Generiques/Quit.java</a>
                 </td>
                 <td>
                   0
+                </td>
+                <td>
+                  9
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.example.com/checkstyle.html#pglp.commandes.Operations.Moins.java">pglp/commandes/Operations/Moins.java</a>
                 </td>
                 <td>
                   0
@@ -239,33 +82,176 @@ under the License.
                 <td>
                   12
                 </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://www.example.com/checkstyle.html#pglp_4.commandes.Generiques.Undo.java">pglp_4/commandes/Generiques/Undo.java</a>
-                </td>
                 <td>
                   0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  44
                 </td>
               </tr>
                           <tr>
                 <td>
-                  <a href="http://www.example.com/checkstyle.html#pglp_4.commandes.Commande.java">pglp_4/commandes/Commande.java</a>
+                  <a href="http://www.example.com/checkstyle.html#pglp.SaisieRPN.java">pglp/SaisieRPN.java</a>
                 </td>
                 <td>
                   0
+                </td>
+                <td>
+                  46
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.example.com/checkstyle.html#pglp.CalculatriceRPN.java">pglp/CalculatriceRPN.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  21
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.example.com/checkstyle.html#pglp.Exceptions.BorneSupInfException.java">pglp/Exceptions/BorneSupInfException.java</a>
                 </td>
                 <td>
                   0
                 </td>
                 <td>
                   6
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.example.com/checkstyle.html#pglp.MoteurRPN.java">pglp/MoteurRPN.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  122
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.example.com/checkstyle.html#pglp.Exceptions.DivisionParZeroException.java">pglp/Exceptions/DivisionParZeroException.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  6
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.example.com/checkstyle.html#pglp.commandes.Operations.Mult.java">pglp/commandes/Operations/Mult.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  12
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.example.com/checkstyle.html#pglp.commandes.Operations.Operation.java">pglp/commandes/Operations/Operation.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  3
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.example.com/checkstyle.html#pglp.commandes.Commande.java">pglp/commandes/Commande.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  4
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.example.com/checkstyle.html#pglp.commandes.Operations.Div.java">pglp/commandes/Operations/Div.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  17
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.example.com/checkstyle.html#pglp.Exceptions.OperationImpossibleException.java">pglp/Exceptions/OperationImpossibleException.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  6
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.example.com/checkstyle.html#pglp.commandes.Generiques.Undo.java">pglp/commandes/Generiques/Undo.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  52
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.example.com/checkstyle.html#pglp.commandes.Interpreteur.java">pglp/commandes/Interpreteur.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  37
+                </td>
+                <td>
+                  0
                 </td>
               </tr>
                       </tbody>
